@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(94, 88, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header nav ul li{
+    display: inline;
+    float: right;
+    padding: 20x;
+    margin: 20px
+}
+header nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+div{
+    position: absolute;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+div p h1{
+    padding: 15px;
+    background-color: black;
+    color: blanchedalmond;
+}
+div p{
+    padding: 15px;
+    background-color: rgb(107, 55, 55);
+    color: cornsilk;
+}

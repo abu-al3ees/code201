@@ -2,7 +2,7 @@
 'use strict';
 alert('do you think you know me lets get started ^_^');
 let counter=0;
-let nAme=prompt('Enter yor name first');
+let username=prompt('Enter yor name first');
 let football=prompt('do i like the football ?');
 football.toLowerCase();
 //console.log(q1);
@@ -76,12 +76,13 @@ gessmyage=parseInt(gessmyage);
 let flag=true;
 for (let index = 1; index <= 4; index++) {
   if(parseInt(gessmyage)===23){
-    alert('you are write');
+    alert('you are right');
+    counter++;
     flag=false;
     break;
   }else if(gessmyage>23){
     alert('too high');
-  }else if(gessmyage<32){
+  }else if(gessmyage<23){
     alert('too low');
   }
   gessmyage=prompt('not correct gess again plz');
@@ -108,7 +109,7 @@ for(let i=1;i<=6;i++){
     break;
   }
 }
-alert(`Thank you ${nAme} and you MARK ${counter} of 7`);
+alert(`Thank you ${username} and you MARK ${counter} of 7`);
 
 
 

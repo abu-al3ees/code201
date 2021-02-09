@@ -28,3 +28,8 @@ div p{
     background-color: rgb(107, 55, 55);
     color: cornsilk;
 }
+.top {
+    margin-top: 300px;
+    text-align: center;
+
+}

@@ -4,7 +4,7 @@ alert('do you think you know me lets get started ^_^');
 let counter=0;
 let username=prompt('Enter yor name first');
 let football=prompt('do i like the football ?');
-football.toLowerCase();
+football=football.toLowerCase();
 //console.log(q1);
 while (football !== 'yes' && football !== 'y'&& football !== 'no'&& football !== 'n') {
   football=prompt('plz enter right answer ');
@@ -17,7 +17,7 @@ else if(football==='no'||football==='n'){
   alert('ops you faild  lets try another qustion');
 }
 let programing=prompt('do i like programing ?');
-programing.toUpperCase();
+programing=programing.toUpperCase();
 //console.log(q2);
 while (programing.toUpperCase() !== 'YES' && programing.toUpperCase() !== 'Y'&& programing.toUpperCase() !== 'NO'&& programing.toUpperCase() !== 'N') {
   programing=prompt('plz enter right answer');
@@ -27,11 +27,11 @@ if(programing.toUpperCase() ==='NO'||programing.toUpperCase() ==='N'){
   counter++;
 }
 // eslint-disable-next-line no-dupe-else-if
-else if(programing.toUpperCase() === 'NO'|| programing.toUpperCase() === 'N'){
-  alert('you did not expect that XD');
+else if(programing.toUpperCase() === 'YES'|| programing.toUpperCase() === 'Y'){
+  alert('fales you did not expect that XD');
 }
 let food=prompt('dose the maqluba is my favarute food ?');
-food.toLowerCase();
+food=food.toLowerCase();
 //console.log(q3);
 while (food.toLowerCase() !== 'yes' && food.toLowerCase() !== 'y'&& food.toLowerCase() !== 'no'&& food.toLowerCase() !== 'n') {
   food=prompt('plz enter right answer ');
@@ -43,7 +43,7 @@ if(food.toLowerCase()==='yes'||food.toLowerCase()==='y'){
   alert('you are faild');
 }
 let movie=prompt('do i like the action movies');
-movie.toUpperCase();
+movie=movie.toUpperCase();
 //console.log(q4);
 while (movie.toUpperCase() !== 'YES' && movie.toUpperCase() !== 'Y'&& movie.toUpperCase() !== 'NO'&& movie.toUpperCase() !== 'N') {
   movie=prompt('plz enter right answer answer');
@@ -55,7 +55,7 @@ if(movie.toUpperCase()==='YES'||movie.toUpperCase() ==='Y'){
   alert('false ^_^');
 }
 let basketball=prompt('do i like my basketball');
-basketball.toLowerCase();
+basketball=basketball.toLowerCase();
 //console.log(q5);
 while (basketball.toLowerCase() !== 'yes' && basketball.toLowerCase() !== 'y'&& basketball.toLowerCase() !== 'no'&& basketball.toLowerCase() !== 'n') {
   basketball=prompt('plz enter right answer');

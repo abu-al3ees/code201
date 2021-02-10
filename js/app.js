@@ -6,6 +6,7 @@ let username=prompt('Enter yor name first');
 let football=prompt('do i like the football ?');
 football=football.toLowerCase();
 //console.log(q1);
+function qustion1 (){
 while (football !== 'yes' && football !== 'y'&& football !== 'no'&& football !== 'n') {
   football=prompt('plz enter right answer ');
 }
@@ -15,7 +16,8 @@ if(football==='yes'||football==='y'){
 }
 else if(football==='no'||football==='n'){
   alert('ops you faild  lets try another qustion');
-}
+}}
+qustion1 (football);
 let programing=prompt('do i like programing ?');
 programing=programing.toUpperCase();
 //console.log(q2);

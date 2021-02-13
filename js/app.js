@@ -5,7 +5,7 @@ let counter=0;
 let username=prompt('Enter yor name first');
 let football=prompt('do i like the football ?');
 football=football.toLowerCase();
-//console.log(q1);
+
 function qustion1 (){
   while (football !== 'yes' && football !== 'y'&& football !== 'no'&& football !== 'n') {
     football=prompt('plz enter right answer ');
@@ -20,7 +20,7 @@ function qustion1 (){
 qustion1 (football);
 let programing=prompt('do i like programing ?');
 programing=programing.toUpperCase();
-//console.log(q2);
+
 function question2(){
   while (programing.toUpperCase() !== 'YES' && programing.toUpperCase() !== 'Y'&& programing.toUpperCase() !== 'NO'&& programing.toUpperCase() !== 'N') {
     programing=prompt('plz enter right answer');
@@ -36,7 +36,7 @@ function question2(){
 }question2(programing);
 let food=prompt('dose the maqluba is my favarute food ?');
 food=food.toLowerCase();
-//console.log(q3);
+
 function qustion3(){
   while (food.toLowerCase() !== 'yes' && food.toLowerCase() !== 'y'&& food.toLowerCase() !== 'no'&& food.toLowerCase() !== 'n') {
     food=prompt('plz enter right answer ');
@@ -51,7 +51,7 @@ function qustion3(){
 qustion3(food);
 let movie=prompt('do i like the action movies');
 movie=movie.toUpperCase();
-//console.log(q4);
+
 function qustion4(){
   while (movie.toUpperCase() !== 'YES' && movie.toUpperCase() !== 'Y'&& movie.toUpperCase() !== 'NO'&& movie.toUpperCase() !== 'N') {
     movie=prompt('plz enter right answer answer');
@@ -66,7 +66,7 @@ qustion4(movie);
 
 let basketball=prompt('do i like my basketball');
 basketball=basketball.toLowerCase();
-//console.log(q5);
+
 function qustion5(){
   while (basketball.toLowerCase() !== 'yes' && basketball.toLowerCase() !== 'y'&& basketball.toLowerCase() !== 'no'&& basketball.toLowerCase() !== 'n') {
     basketball=prompt('plz enter right answer');
@@ -81,7 +81,7 @@ function qustion5(){
   }}
 qustion5(basketball);
 
-//gess a number
+
 let gessmyage=prompt('can you gess my age');
 gessmyage=parseInt(gessmyage);
 // eslint-disable-next-line no-undef
